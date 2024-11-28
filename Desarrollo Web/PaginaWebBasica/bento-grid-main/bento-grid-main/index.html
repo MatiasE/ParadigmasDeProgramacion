@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Bento grid</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      gap: 20px;
+      margin: 150px auto;
+      max-width: 1200px;
+    }
+
+    .social-media {
+      background-color: hsl(256, 67%, 59%);
+      width: 35%;
+      height: 35vh;
+      border-radius: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .social-media-text {
+      color: hsl(0, 0%, 100%);
+      text-align: center;
+      font-size: 2.5rem;
+    }
+
+    .number {
+      color: hsl(39, 100%, 71%);
+    }
+
+    .reviews {
+      font-size: 1.0rem;
+      font-weight: 100px;
+    }
+
+    .create-content {
+      width: 25%;
+      height: 45vh;
+      background-color: hsl(31, 66%, 93%);
+      border-radius: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .create-content-text {
+      text-align: left;
+      font-size: 2.0rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      float: left;
+      margin-left: -1.5rem;
+    }
+
+    .create-post {
+      margin-left: -1.5rem;
+      width: 50%;
+      height: 50%;
+    }
+
+    .quicker {
+      color: hsl(256, 67%, 59%);
+      text-align: left;
+      font-size: 2.0rem;
+      margin-left: -8.7rem;
+      margin-bottom: -8.5rem;
+    }
+
+    .stars {
+      width: 35%;
+      height: 35%;
+    }
+
+    .schedule {
+      width: 20%;
+      height: 65vh;
+      background-color: hsl(254, 88%, 90%);
+      border-radius: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .schedule-image {
+      width: 80%;
+      height: 90%;
+      margin-left: 3rem;
+      overflow: hidden;
+    }
+
+    .schedule-text {
+      font-size: 1rem;
+      text-align: left;
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="create-content">
+      <div class="create-content-text">
+        Create and <br />
+        schedule <br /> 
+        content
+        <div class="quicker"> quicker.</div>
+      </div>
+      <img src="./assets/images/illustration-create-post.webp" class="create-post" alt="arrow">
+    </div>
+  
+    <div class="social-media">
+      <div class="social-media-text">
+        Social Media <span class="number">10x</span> <br /> 
+        Faster with AI <br />
+        <img src="./assets/images/illustration-five-stars.webp" class="stars" alt="star"><br />
+        <div class="reviews">Over 4,000 5-star reviews</div>
+      </div>
+    </div>
+
+    <div class="schedule">
+      <div class="schedule-title">
+        <h2>Schedule to <br /> social media.</h2>
+      </div>
+      <div class="schedule-image">
+        <img src="./assets/images/illustration-schedule-posts.webp" class="schedule-image" alt="schedule">
+      </div>
+      <div class="schedule-text">
+        Optimize post timings <br />
+        to publish content at <br />
+        the perfect time for <br />
+        your audience.  
+      </div>
+    </div>
+  </div>
+
+  <div class="manage">
+    Manage multiple accounts and platforms.
+  
+    Maintain a consistent posting schedule.
+    
+    
+    Grow followers with non-stop content.
+  
+    >56% faster audience growth
+    
+    Create and schedule content quicker.
+  
+    Write your content using AI.
+  
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>

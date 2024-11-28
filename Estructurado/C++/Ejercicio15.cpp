@@ -21,5 +21,7 @@ int main() {
     }
     cout << "Cantidad de Valores Ingresados: " << cantValores << endl;
 
+    cout << "Fin del programa" << endl;
+    cout << "Presione una tecla para continuar..." << endl;
     return 0;
 }

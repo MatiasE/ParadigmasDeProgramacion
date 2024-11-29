@@ -1,0 +1,4 @@
+Legajo: 1 Promedio: 8.5
+Legajo: 2 Promedio: 7.5
+Legajo: 3 Promedio: 6.5
+Legajo: 4 Promedio: 3
